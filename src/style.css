@@ -17,3 +17,19 @@ body {
   color: red;
   font-size: 4rem;
 }
+
+.color {
+  color: white;
+}
+
+.random {
+  color: white;
+}
+
+.eraser {
+  color: white;
+}
+
+.clear {
+  color: white;
+}
