@@ -19,11 +19,21 @@ body {
 }
 
 .color {
-  color: white;
+  color: black;
+  border-radius: 4px;
+  background-color: aliceblue;
+  display: inline;
+  height: 10px;
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: 0.3s ease;
 }
 
 .random {
   color: white;
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: 0.3s ease;
 }
 
 .eraser {
