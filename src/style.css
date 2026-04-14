@@ -18,12 +18,16 @@ body {
   font-size: 4rem;
 }
 
+.container1 {
+  align-items: center;
+}
+
 .color {
   color: black;
   border-radius: 4px;
   background-color: aliceblue;
   display: inline;
-  height: 10px;
+  height: 20px;
   cursor: pointer;
   padding: 5px 5px;
   transition: 0.3s ease;
@@ -31,6 +35,11 @@ body {
 
 .random {
   color: white;
+  border-radius: 4px;
+  background-color: rgb(17, 22, 26);
+  /* display: inline; */
+  height: 20px;
+  width: 100px;
   cursor: pointer;
   padding: 5px 5px;
   transition: 0.3s ease;
@@ -38,8 +47,24 @@ body {
 
 .eraser {
   color: white;
+  border-radius: 4px;
+  background-color: rgb(17, 22, 26);
+  /* display: inline; */
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: 0.3s ease;
 }
 
 .clear {
   color: white;
+  border-radius: 4px;
+  background-color: rgb(17, 22, 26);
+  /* display: inline; */
+  height: 20px;
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: 0.3s ease;
 }
