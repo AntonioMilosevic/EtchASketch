@@ -43,6 +43,7 @@ body {
   cursor: pointer;
   padding: 5px 5px;
   transition: 0.3s ease;
+  border: 1px solid white;
 }
 
 .eraser {
@@ -53,8 +54,9 @@ body {
   height: 20px;
   width: 100px;
   cursor: pointer;
-  padding: 5px 5px;
+  padding: 5px;
   transition: 0.3s ease;
+  border: 1px solid white;
 }
 
 .clear {
@@ -67,4 +69,10 @@ body {
   cursor: pointer;
   padding: 5px 5px;
   transition: 0.3s ease;
+  border: 1px solid white;
+}
+
+.rock:eraser {
+  background-color: #4320df; /* New background color on hover */
+  transform: scale(1.05);
 }
